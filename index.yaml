@@ -3,7 +3,7 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-12-04T09:31:19.12868797Z"
+    created: "2025-12-05T08:10:19.820583878Z"
     description: A Helm chart for Kubernetes
     digest: 56e043e32d7953d969afc1592ab07186b541fd50a6ee64c0d877292262c2d9e9
     name: example
@@ -11,4 +11,15 @@ entries:
     urls:
     - https://AISHU-Technology.github.io/helm-repo/example-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-04T09:31:19.128148285Z"
+  testchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-12-05T08:10:19.821054454Z"
+    description: A Helm chart for Kubernetes
+    digest: c22e7485a70443402ede3418a0cd9ef21e3085d58eae10f6f91925cd5a7a5bc1
+    name: testchart
+    type: application
+    urls:
+    - https://AISHU-Technology.github.io/helm-repo/testchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-12-05T08:10:19.820111699Z"
