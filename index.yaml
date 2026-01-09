@@ -3,23 +3,33 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-12-05T08:10:19.820583878Z"
+    created: "2026-01-09T01:54:15.441322438Z"
     description: A Helm chart for Kubernetes
     digest: 56e043e32d7953d969afc1592ab07186b541fd50a6ee64c0d877292262c2d9e9
     name: example
     type: application
     urls:
-    - https://AISHU-Technology.github.io/helm-repo/example-0.1.0.tgz
+    - https://kweaver-ai.github.io/helm-repo/example-0.1.0.tgz
+    version: 0.1.0
+  sandbox-runtime:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-09T01:54:15.441584456Z"
+    description: A Helm chart for Kubernetes
+    digest: f7ba9790fab39a3def1bccc2bfd669a3d69fb17bd9f1460e263a9e4ed1a88c49
+    name: sandbox-runtime
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/sandbox-runtime-0.1.0.tgz
     version: 0.1.0
   testchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-12-05T08:10:19.821054454Z"
+    created: "2026-01-09T01:54:15.442077804Z"
     description: A Helm chart for Kubernetes
     digest: c22e7485a70443402ede3418a0cd9ef21e3085d58eae10f6f91925cd5a7a5bc1
     name: testchart
     type: application
     urls:
-    - https://AISHU-Technology.github.io/helm-repo/testchart-0.1.0.tgz
+    - https://kweaver-ai.github.io/helm-repo/testchart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-05T08:10:19.820111699Z"
+generated: "2026-01-09T01:54:15.440843888Z"
