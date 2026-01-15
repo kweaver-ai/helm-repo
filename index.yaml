@@ -70,16 +70,6 @@ entries:
     urls:
     - https://kweaver-ai.github.io/helm-repo/agent-retrieval-0.1.0-release-0.1.0.git-bccf86f.tgz
     version: 0.1.0-release-0.1.0.git-bccf86f
-  agent-web:
-  - apiVersion: v1
-    appVersion: 0.1.0-release-0.1.0.git-692cb93.1717080
-    created: "2026-01-15T09:49:08.456297242Z"
-    description: A Helm chart for Kubernetes
-    digest: 3750c86b870d7c0581db55b1517eac568654d486088174f7488e20a31ee190fa
-    name: agent-web
-    urls:
-    - https://kweaver-ai.github.io/helm-repo/agent-web-0.1.0.tgz
-    version: 0.1.0-release-0.1.0.git-692cb93.1717080
   business-system-service:
   - apiVersion: v1
     appVersion: "1.0"
