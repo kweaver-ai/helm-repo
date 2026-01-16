@@ -3,7 +3,7 @@ entries:
   agent-app:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716698
-    created: "2026-01-16T06:01:52.428463944Z"
+    created: "2026-01-16T06:07:53.411818645Z"
     description: A Helm service chart for Kubernetes
     digest: 7c1de1f47fded500b9e346fd9d5c35466b65240b0219304363878b44bf37493f
     name: agent-app
@@ -13,7 +13,7 @@ entries:
   agent-executor:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716701
-    created: "2026-01-16T06:01:52.429031194Z"
+    created: "2026-01-16T06:07:53.412411389Z"
     description: A Helm chart for Kubernetes
     digest: 773121c26e997e20e4d10e4aa34667fcf9eb9fef4fe05c707879bc46ae14100a
     name: agent-executor
@@ -23,7 +23,7 @@ entries:
   agent-factory:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716703
-    created: "2026-01-16T06:01:52.429650238Z"
+    created: "2026-01-16T06:07:53.413030912Z"
     description: A Helm service chart for Kubernetes
     digest: 28a2dbd862f55dcaca53ea1679b217a76842dabcd57e4be20981d108c7ebad79
     name: agent-factory
@@ -33,7 +33,7 @@ entries:
   agent-memory:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716695
-    created: "2026-01-16T06:01:52.430141945Z"
+    created: "2026-01-16T06:07:53.413579162Z"
     description: A Helm chart for Kubernetes
     digest: cab95ff28bd814f2e8dba2b1145b8163b02375aad11d9b2a0bf28906f0dd18b4
     name: agent-memory
@@ -43,7 +43,7 @@ entries:
   agent-operator-app:
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717543
-    created: "2026-01-16T06:01:52.430579179Z"
+    created: "2026-01-16T06:07:53.414044558Z"
     description: A Helm service chart for Kubernetes
     digest: 52f0515bca4f267ed45515a25e1421ba0152d203c8f8efd9733bcf39c8a61cf4
     name: agent-operator-app
@@ -53,7 +53,7 @@ entries:
   agent-operator-integration:
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717542
-    created: "2026-01-16T06:01:52.431187037Z"
+    created: "2026-01-16T06:07:53.41470107Z"
     description: A Helm service chart for Kubernetes
     digest: 063b58472f5fbb5770974a6d97854b06ea4268dda808f0542e26b16573914369
     name: agent-operator-integration
@@ -63,7 +63,7 @@ entries:
   agent-retrieval:
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717916
-    created: "2026-01-16T06:01:52.432614096Z"
+    created: "2026-01-16T06:07:53.415342514Z"
     description: A Helm service chart for Kubernetes
     digest: 746679361b80027c386cec672115e704af6dcaf6f1c0646f690343b9ce36e729
     name: agent-retrieval
@@ -73,17 +73,56 @@ entries:
   agent-web:
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-692cb93.1717080
-    created: "2026-01-16T06:01:52.432951444Z"
+    created: "2026-01-16T06:07:53.416194801Z"
     description: A Helm chart for Kubernetes
     digest: 9f5d15576b2a776030a74069f2b84fc97f9f1e98e0b74c06ba68cd14ebfc94ec
     name: agent-web
     urls:
     - https://kweaver-ai.github.io/helm-repo/agent-web-0.1.0.tgz
     version: 0.1.0
+  audit-log:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.41732395Z"
+    description: 审计日志服务
+    digest: ac24cf71d8592a14c16c797966a75b3702bbc1b51709bb19c72fa898546fb245
+    keywords:
+    - AuditLog
+    - InformationSecurityFabric
+    name: audit-log
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/audit-log-0.1.0.tgz
+    version: 0.1.0
+  authentication:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.4177808Z"
+    description: A Helm authentication service chart for Kubernetes
+    digest: 372b5a8cb9491fc3c6f90e4663526022c6ca2942fcd72bfe8734abab7f6fb9eb
+    keywords:
+    - authentication
+    - InformationSecurityFabric
+    name: authentication
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/authentication-0.1.0.tgz
+    version: 0.1.0
+  authorization:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.418213355Z"
+    description: A Helm authorization service chart for Kubernetes
+    digest: b13857698ce83b9162cc6d1929e49304839e416f0ce801521b82b3099e25fcc5
+    keywords:
+    - authorization
+    - IdentifyAndAuthentication
+    name: authorization
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/authorization-0.1.0.tgz
+    version: 0.1.0
   business-system-service:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-01-16T06:01:52.433250965Z"
+    created: "2026-01-16T06:07:53.418534122Z"
     description: A Helm chart for Kubernetes
     digest: b3a9ac771575c2297f99f854f1335e2f128fd230dac1642c7c3d04193a229a21
     name: business-system-service
@@ -93,7 +132,7 @@ entries:
   coderunner:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717495
-    created: "2026-01-16T06:01:52.433936793Z"
+    created: "2026-01-16T06:07:53.419020227Z"
     description: A Helm chart for Kubernetes
     digest: bf2c84df658806afe51926fdcbb68cde71e88be1efb1da593e0672b716650c3f
     name: coderunner
@@ -103,7 +142,7 @@ entries:
   deploy-web:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-01-16T06:01:52.434330061Z"
+    created: "2026-01-16T06:07:53.419414921Z"
     digest: 945477797a2b4fbb058ea9dc7d0b4a40d77eaafd5193dce21180967545fb38ad
     name: deploy-web
     type: application
@@ -113,17 +152,43 @@ entries:
   doc-audit-client:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717517
-    created: "2026-01-16T06:01:52.434592917Z"
+    created: "2026-01-16T06:07:53.419731911Z"
     description: A Helm chart for Kubernetes
     digest: 513aecf8ddfdcf612f36ced7f96625385064eb8726829fc1ff398c5898d370d0
     name: doc-audit-client
     urls:
     - https://kweaver-ai.github.io/helm-repo/doc-audit-client-0.1.0.tgz
     version: 0.1.0
+  eacp:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.420199291Z"
+    description: A Helm eacp service chart for Kubernetes
+    digest: 4fd232451f9823f91a1c8675d1783213a70ec5cfc5751dba3d94d81f310ee0ec
+    keywords:
+    - eacp
+    - InformationSecurityFabric
+    name: eacp
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/eacp-0.1.0.tgz
+    version: 0.1.0
+  eacp-single:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.420696397Z"
+    description: A Helm eacp-single service chart for Kubernetes
+    digest: 9db091843725744147e609bcd46314aea8a053bb228cb39387c2425c32375280
+    keywords:
+    - eacp-single
+    - InformationSecurityFabric
+    name: eacp-single
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/eacp-single-0.1.0.tgz
+    version: 0.1.0
   ecron-analysis:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717499
-    created: "2026-01-16T06:01:52.434895762Z"
+    created: "2026-01-16T06:07:53.421039816Z"
     description: A Helm ecron analysis service chart for kubenetes
     digest: eb20da916ce9d671a38690571d1e60e2fa7969f53fb9c4c3f27396198086ea7c
     keywords:
@@ -136,7 +201,7 @@ entries:
   ecron-management:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717499
-    created: "2026-01-16T06:01:52.435266155Z"
+    created: "2026-01-16T06:07:53.421456211Z"
     description: A Helm ecron management service chart for kubenetes
     digest: f9be8e14ca62a745d1ed8d005159f0757a4745e102de2a74f578388a403f18c2
     keywords:
@@ -149,7 +214,7 @@ entries:
   flow-audit-config:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717504
-    created: "2026-01-16T06:01:52.435673031Z"
+    created: "2026-01-16T06:07:53.421879058Z"
     description: FLow Audit Config. A Helm chart for Kubernetes
     digest: 8fd62722ef75eec75411bb543312c1d377ab37940dd26dc4dca89c319d6fd011
     keywords:
@@ -161,7 +226,7 @@ entries:
   flow-audit-core:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717504
-    created: "2026-01-16T06:01:52.436119661Z"
+    created: "2026-01-16T06:07:53.42332429Z"
     description: Doc Audit Rest. A Helm chart for Kubernetes
     digest: 2dfd40a9f06ce8f42645b9dbfe184e624428bc6954f2a4b8ed7886dbba415ae3
     keywords:
@@ -173,7 +238,7 @@ entries:
   flow-automation:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717487
-    created: "2026-01-16T06:01:52.437529513Z"
+    created: "2026-01-16T06:07:53.424568376Z"
     description: A Helm chart for Kubernetes
     digest: b908277a641b7a36723787c047d4fe4cf2859378fd6631d097d2f193dde28963
     name: flow-automation
@@ -183,7 +248,7 @@ entries:
   flow-stream-data-pipeline:
   - apiVersion: v1
     appVersion: 0.1.0-1717403
-    created: "2026-01-16T06:01:52.438537925Z"
+    created: "2026-01-16T06:07:53.425022421Z"
     description: helm chart for flow-stream-data-pipeline
     digest: 77fb558c1e88e924cbc432a1449157177000467060ee38096f55f62143ead52c
     name: flow-stream-data-pipeline
@@ -193,17 +258,88 @@ entries:
   flow-web:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717500
-    created: "2026-01-16T06:01:52.438870019Z"
+    created: "2026-01-16T06:07:53.425362484Z"
     description: A Helm chart for Kubernetes
     digest: 37ba170381d5318c23920932288321faef512e83ca80d436cf552b1e5eb22731
     name: flow-web
     urls:
     - https://kweaver-ai.github.io/helm-repo/flow-web-0.1.0.tgz
     version: 0.1.0
+  hydra:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.426674937Z"
+    description: A Helm chart for deploying ORY Hydra in Kubernetes
+    digest: cc26760cb9f59ae9b4e9cd61f0ddae52d5b8a07b73cb32b3a731be68dc473951
+    home: https://www.ory.sh/
+    icon: https://raw.githubusercontent.com/ory/docs/master/docs/static/img/logo-hydra.svg
+    keywords:
+    - oauth2
+    - openid-connect
+    - openid
+    - oidc
+    - op
+    - api-security
+    - security
+    maintainers:
+    - email: hi@ory.sh
+      name: ORY Team
+      url: https://www.ory.sh/
+    name: hydra
+    type: application
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/hydra-0.1.0.tgz
+    version: 0.1.0
+  informationsecurityfabric-dm-pre:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.427077256Z"
+    description: A Helm chart for Kubernetes
+    digest: 3a67d71c44a004924373faceba007a71164d32995d67f8ba4e86041ea29e0163
+    name: informationsecurityfabric-dm-pre
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/informationsecurityfabric-dm-pre-0.1.0.tgz
+    version: 0.1.0
+  ingress-informationsecurityfabric:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2026-01-16T06:07:53.427402341Z"
+    description: A Helm chart for Kubernetes
+    digest: 37deda5698e95a24e12f36eb43c3a4c31f4d7bf22cf9b558fe62c4cb1aeca7f8
+    name: ingress-informationsecurityfabric
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/ingress-informationsecurityfabric-0.1.0.tgz
+    version: 0.1.0
+  isfweb:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.427707158Z"
+    description: A Helm chart for isfweb frontend
+    digest: 83854ab735ce5a87bfa97a1e62f8be190751e3979e756522adc99e3893d027d4
+    keywords:
+    - isfweb
+    - AnyShare7.0
+    name: isfweb
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/isfweb-0.1.0.tgz
+    version: 0.1.0
+  isfwebthrift:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.42810555Z"
+    description: A Helm chart for isfwebthrift frontend
+    digest: 02eeac59e3e2de7a5dde27ffdacbdfb6564b0c936744990529cea5ff78d3e897
+    keywords:
+    - isfwebthrift
+    - AnyShare7.0
+    name: isfwebthrift
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/isfwebthrift-0.1.0.tgz
+    version: 0.1.0
   mdl-data-model:
   - apiVersion: v1
     appVersion: 0.1.0-20260114.1.95e40a6
-    created: "2026-01-16T06:01:52.439341629Z"
+    created: "2026-01-16T06:07:53.429062661Z"
     description: helm chart for mdl-data-model
     digest: c8adb316031267d6f6dab7b8c1af7f73276be9dd84751f74d1b320d04be806af
     name: mdl-data-model
@@ -213,7 +349,7 @@ entries:
   mdl-data-model-job:
   - apiVersion: v1
     appVersion: 0.1.0-20260114.1.95e40a6
-    created: "2026-01-16T06:01:52.439719316Z"
+    created: "2026-01-16T06:07:53.429844837Z"
     description: helm chart for mdl-data-model-job
     digest: 6d023084b76ec7de090c250ddda32d3cd0650881dad897709e5ad3d0b1dafc8b
     name: mdl-data-model-job
@@ -223,17 +359,58 @@ entries:
   mdl-uniquery:
   - apiVersion: v1
     appVersion: 0.1.0-20260114.1.95e40a6
-    created: "2026-01-16T06:01:52.44029761Z"
+    created: "2026-01-16T06:07:53.430496079Z"
     description: helm chart for mdl-uniquery
     digest: 9e31be40182a8ca438a6ea44771326d16d2e9a9b27239eec6269c2e4cfae3088
     name: mdl-uniquery
     urls:
     - https://kweaver-ai.github.io/helm-repo/mdl-uniquery-0.1.0.tgz
     version: 0.1.0
+  message:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.430909398Z"
+    description: A Helm message service chart for Kubernetes
+    digest: 508ddb2b79e7d70aca64870a451ccd8ed6889db7256d98b08b4f0a1152f54664
+    keywords:
+    - message
+    - InformationSecurityFabric
+    name: message
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/message-0.1.0.tgz
+    version: 0.1.0
+  news-feed:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.431341903Z"
+    description: A Helm news-feed service chart for Kubernetes
+    digest: 3cb9854c9f81f3978f3a0538d7dfcb25592913093e00fd6a44231d0274e5639b
+    keywords:
+    - news-feed
+    - InformationSecurityFabric
+    name: news-feed
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/news-feed-0.1.0.tgz
+    version: 0.1.0
+  oauth2-ui:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.43174322Z"
+    description: A Helm chart oauth2-ui for Kubernetes
+    digest: 5a9b784d82f7cffa9d76c56790ca3fbcb54339cf309b223c01f229fdfebf1953
+    keywords:
+    - oauth2-ui
+    - AnyShare7.0
+    name: oauth2-ui
+    sources:
+    - https://gitlab.aishu.cn/AnyShareFamily/helm-charts/oauth2-ui.git
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/oauth2-ui-0.1.0.tgz
+    version: 0.1.0
   ontology-manager:
   - apiVersion: v1
     appVersion: 0.1.0-20260114.2.95e40a6
-    created: "2026-01-16T06:01:52.440731757Z"
+    created: "2026-01-16T06:07:53.432240375Z"
     description: helm chart for ontology-manager
     digest: 82204193f1042340c1ac08652a9d1bbb6921f9d998730d70c398ad848f42608d
     name: ontology-manager
@@ -243,7 +420,7 @@ entries:
   ontology-query:
   - apiVersion: v1
     appVersion: 0.1.0-20260114.1.95e40a6
-    created: "2026-01-16T06:01:52.44109376Z"
+    created: "2026-01-16T06:07:53.432656931Z"
     description: helm chart for ontology-query
     digest: 68de7176453bb6499f9f90c8d984fb1a0b97651a9a7374486d9da8b25e73e24e
     name: ontology-query
@@ -253,37 +430,106 @@ entries:
   operator-web:
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-937fecf.1717076
-    created: "2026-01-16T06:01:52.441408549Z"
+    created: "2026-01-16T06:07:53.432980263Z"
     description: A Helm chart for Kubernetes
     digest: 6f39b46b3e8cc8612b9561faf590ff6549646a884b7beadc29bb802b5ed3e20c
     name: operator-web
     urls:
     - https://kweaver-ai.github.io/helm-repo/operator-web-0.1.0.tgz
     version: 0.1.0
+  policy-management:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.433464123Z"
+    description: 策略管理服务
+    digest: 0502257254c3bc1e9f95902f38ae66e479912b09469f80c68b3f4d9a0d547fa2
+    keywords:
+    - policy-management
+    - InformationSecurityFabric
+    name: policy-management
+    sources:
+    - https://gitlab.aishu.cn/AnyShareFamily/Console/policy-management.git
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/policy-management-0.1.0.tgz
+    version: 0.1.0
   sandbox-runtime:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-01-16T06:01:52.44162054Z"
+    created: "2026-01-16T06:07:53.433701214Z"
     description: A Helm chart for Kubernetes
     digest: f7ba9790fab39a3def1bccc2bfd669a3d69fb17bd9f1460e263a9e4ed1a88c49
     name: sandbox-runtime
     urls:
     - https://kweaver-ai.github.io/helm-repo/sandbox-runtime-0.1.0.tgz
     version: 0.1.0
+  sharemgnt:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2026-01-16T06:07:53.434094627Z"
+    description: A Helm sharemgnt service chart for Kubernetes
+    digest: 91a9675fdbbb45fb21642640d6d3047504a7192695eba4469aa09289734dde4b
+    keywords:
+    - sharemgnt
+    - InformationSecurityFabric
+    name: sharemgnt
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/sharemgnt-0.1.0.tgz
+    version: 0.1.0
+  sharemgnt-single:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2026-01-16T06:07:53.434492317Z"
+    description: A Helm sharemgnt-single service chart for Kubernetes
+    digest: d8a21ddfb50b37a7e0025f16a6a281b3e063901d29b60429db59b1cd20f6adfe
+    keywords:
+    - sharemgnt-single
+    - InformationSecurityFabric
+    name: sharemgnt-single
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/sharemgnt-single-0.1.0.tgz
+    version: 0.1.0
   studio-web:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-01-16T06:01:52.44200392Z"
+    created: "2026-01-16T06:07:53.434896419Z"
     digest: c2c28f78b68fc7db37fca2dba80b4d435cbb0ed1283afb6ba7a0633bbf47819e
     name: studio-web
     type: application
     urls:
     - https://kweaver-ai.github.io/helm-repo/studio-web-0.1.0.tgz
     version: 0.1.0
+  thirdparty-message-plugin:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.43568686Z"
+    description: 文档策略服务
+    digest: 73445f7c3efcee9bdf450250ffb73da6c75e1433ffec974d5c310612bde3a515
+    keywords:
+    - thirdparty-message-plugin
+    - InformationSecurityFabric
+    name: thirdparty-message-plugin
+    sources:
+    - https://gitlab.aishu.cn/AnyShareFamily/Console/thirdparty-message-plugin.git
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/thirdparty-message-plugin-0.1.0.tgz
+    version: 0.1.0
+  user-management:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2026-01-16T06:07:53.436448706Z"
+    description: A Helm user-management service chart for Kubernetes
+    digest: 0b40f12854db3e2a46c826a820cd8d8fa306f7a73914261ff0738cf4270c36a4
+    keywords:
+    - user-management
+    - InformationSecurityFabric
+    name: user-management
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/user-management-0.1.0.tgz
+    version: 0.1.0
   vega-calculate:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-01-16T06:01:52.442575544Z"
+    created: "2026-01-16T06:07:53.437041289Z"
     description: A Helm chart for HDFS
     digest: 36fee40b27ee545a38ee889341554324148b44e03808201e82deccd9242abe2f
     name: vega-calculate
@@ -293,7 +539,7 @@ entries:
   vega-gateway:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-01-16T06:01:52.443019658Z"
+    created: "2026-01-16T06:07:53.437488411Z"
     description: A Helm chart for vega-gateway
     digest: 158b021230802821e6426107a7077702aa8735a0e2789ad6859088e00fc0990d
     name: vega-gateway
@@ -303,7 +549,7 @@ entries:
   vega-gateway-pro:
   - apiVersion: v1
     appVersion: 0.1.0-20260114.2.95e40a6
-    created: "2026-01-16T06:01:52.443732207Z"
+    created: "2026-01-16T06:07:53.43797679Z"
     description: helm chart for vega-gateway-pro
     digest: b9627d57a8fe5494477532ba3e687132dee805be0d57bed9f137d01e99474589
     name: vega-gateway-pro
@@ -313,7 +559,7 @@ entries:
   vega-hdfs:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-01-16T06:01:52.44510495Z"
+    created: "2026-01-16T06:07:53.438535139Z"
     description: A Helm chart for vega-hdfs
     digest: 11af7650de0e2ed4b772b19ecae627fab7faf7dd467465e898475df717712b3e
     name: vega-hdfs
@@ -323,7 +569,7 @@ entries:
   vega-metadata:
   - apiVersion: v1
     appVersion: Develop
-    created: "2026-01-16T06:01:52.445734343Z"
+    created: "2026-01-16T06:07:53.439052041Z"
     description: 元数据管理后端
     digest: 36d6418dd37f06fdf6de8e7926808e5e845b541bdd5bb52d47b272358612c261
     name: vega-metadata
@@ -334,7 +580,7 @@ entries:
   vega-web:
   - apiVersion: v1
     appVersion: 0.1.0-20260114.1.95e40a6
-    created: "2026-01-16T06:01:52.445999724Z"
+    created: "2026-01-16T06:07:53.43933621Z"
     description: helm chart for vega-web
     digest: 930193c61dca0f7c83247e2b899028fe5975ed3f31e8634a0783b434a19399cb
     name: vega-web
@@ -344,11 +590,11 @@ entries:
   workflow-manage-client:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717518
-    created: "2026-01-16T06:01:52.446289014Z"
+    created: "2026-01-16T06:07:53.439619367Z"
     description: A Helm chart for Kubernetes
     digest: f724c2f1d4a7cd25c474adf17d08ddbfd85d46a0f9ef2e216a33c25865d6ea82
     name: workflow-manage-client
     urls:
     - https://kweaver-ai.github.io/helm-repo/workflow-manage-client-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-16T06:01:52.427648308Z"
+generated: "2026-01-16T06:07:53.410980646Z"
