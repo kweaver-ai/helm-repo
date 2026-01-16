@@ -3,7 +3,16 @@ entries:
   agent-app:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716698
-    created: "2026-01-15T10:04:07.925435512Z"
+    created: "2026-01-16T02:56:38.425820429Z"
+    description: A Helm service chart for Kubernetes
+    digest: 7c1de1f47fded500b9e346fd9d5c35466b65240b0219304363878b44bf37493f
+    name: agent-app
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/agent-app-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716698
+    created: "2026-01-16T02:56:38.42498894Z"
     description: A Helm service chart for Kubernetes
     digest: 1bd327f1a26de613c4cbc657956d0ba4c0223b1f4be313c0e7ac2c57c07bb993
     name: agent-app
@@ -13,7 +22,16 @@ entries:
   agent-executor:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716701
-    created: "2026-01-15T10:04:07.926076004Z"
+    created: "2026-01-16T02:56:38.428022048Z"
+    description: A Helm chart for Kubernetes
+    digest: 773121c26e997e20e4d10e4aa34667fcf9eb9fef4fe05c707879bc46ae14100a
+    name: agent-executor
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/agent-executor-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716701
+    created: "2026-01-16T02:56:38.427292229Z"
     description: A Helm chart for Kubernetes
     digest: b4577037b87d2b4ffbe892760fb0aebb620fc2d05434560ca8e14e5165b77ba3
     name: agent-executor
@@ -23,7 +41,16 @@ entries:
   agent-factory:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716703
-    created: "2026-01-15T10:04:07.92675108Z"
+    created: "2026-01-16T02:56:38.429729217Z"
+    description: A Helm service chart for Kubernetes
+    digest: 28a2dbd862f55dcaca53ea1679b217a76842dabcd57e4be20981d108c7ebad79
+    name: agent-factory
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/agent-factory-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716703
+    created: "2026-01-16T02:56:38.428731198Z"
     description: A Helm service chart for Kubernetes
     digest: 0d9e7258c52daee8cccb822ecee53e52b35f6b83a65f567c15339083fd41dd18
     name: agent-factory
@@ -33,7 +60,16 @@ entries:
   agent-memory:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716695
-    created: "2026-01-15T10:04:07.927281658Z"
+    created: "2026-01-16T02:56:38.43102003Z"
+    description: A Helm chart for Kubernetes
+    digest: cab95ff28bd814f2e8dba2b1145b8163b02375aad11d9b2a0bf28906f0dd18b4
+    name: agent-memory
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/agent-memory-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716695
+    created: "2026-01-16T02:56:38.430428459Z"
     description: A Helm chart for Kubernetes
     digest: 94eb622fd209cd0e13719763683877603f37d0a6bff1f5a2621c14c556c55bd5
     name: agent-memory
@@ -43,7 +79,16 @@ entries:
   agent-operator-app:
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717543
-    created: "2026-01-15T10:04:07.937759368Z"
+    created: "2026-01-16T02:56:38.431512407Z"
+    description: A Helm service chart for Kubernetes
+    digest: 52f0515bca4f267ed45515a25e1421ba0152d203c8f8efd9733bcf39c8a61cf4
+    name: agent-operator-app
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/agent-operator-app-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717543
+    created: "2026-01-16T02:56:38.447564103Z"
     description: A Helm service chart for Kubernetes
     digest: 5afc1bf55f11377cf3ae7c66002051fa39a530ec37fe24f5d82bead98c8aac00
     name: agent-operator-app
@@ -53,7 +98,16 @@ entries:
   agent-operator-integration:
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717542
-    created: "2026-01-15T10:04:07.938409578Z"
+    created: "2026-01-16T02:56:38.432206239Z"
+    description: A Helm service chart for Kubernetes
+    digest: 063b58472f5fbb5770974a6d97854b06ea4268dda808f0542e26b16573914369
+    name: agent-operator-integration
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/agent-operator-integration-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717542
+    created: "2026-01-16T02:56:38.448244079Z"
     description: A Helm service chart for Kubernetes
     digest: 44b4d0867074ffd31a20b17c57bdcf8140f22c24447d0323c50c45cbb8c301bf
     name: agent-operator-integration
@@ -63,7 +117,16 @@ entries:
   agent-retrieval:
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717916
-    created: "2026-01-15T10:04:07.927947156Z"
+    created: "2026-01-16T02:56:38.433639788Z"
+    description: A Helm service chart for Kubernetes
+    digest: 746679361b80027c386cec672115e704af6dcaf6f1c0646f690343b9ce36e729
+    name: agent-retrieval
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/agent-retrieval-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717916
+    created: "2026-01-16T02:56:38.432855568Z"
     description: A Helm service chart for Kubernetes
     digest: 6b0b9405b1e2a8d28ddf9b87d2b16fb0ad9e24cf090132a08d81a131ad639a98
     name: agent-retrieval
@@ -73,17 +136,17 @@ entries:
   agent-web:
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-692cb93.1717080
-    created: "2026-01-15T10:04:07.928304572Z"
+    created: "2026-01-16T02:56:38.434495178Z"
     description: A Helm chart for Kubernetes
-    digest: 3750c86b870d7c0581db55b1517eac568654d486088174f7488e20a31ee190fa
+    digest: 9f5d15576b2a776030a74069f2b84fc97f9f1e98e0b74c06ba68cd14ebfc94ec
     name: agent-web
     urls:
     - https://kweaver-ai.github.io/helm-repo/agent-web-0.1.0.tgz
-    version: 0.1.0-release-0.1.0.git-692cb93.1717080
+    version: 0.1.0
   business-system-service:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-01-15T10:04:07.929879974Z"
+    created: "2026-01-16T02:56:38.435185694Z"
     description: A Helm chart for Kubernetes
     digest: b3a9ac771575c2297f99f854f1335e2f128fd230dac1642c7c3d04193a229a21
     name: business-system-service
@@ -92,7 +155,7 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-01-15T10:04:07.929059527Z"
+    created: "2026-01-16T02:56:38.434867171Z"
     description: A Helm chart for Kubernetes
     digest: 880a7a44df3b043605cd18dd420131ac0dd3df32d25a6e4ba8d730cae48ed06f
     name: business-system-service
@@ -102,7 +165,16 @@ entries:
   coderunner:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717495
-    created: "2026-01-15T10:04:07.930397227Z"
+    created: "2026-01-16T02:56:38.436203499Z"
+    description: A Helm chart for Kubernetes
+    digest: bf2c84df658806afe51926fdcbb68cde71e88be1efb1da593e0672b716650c3f
+    name: coderunner
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/coderunner-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-9008ecc.1717495
+    created: "2026-01-16T02:56:38.435678352Z"
     description: A Helm chart for Kubernetes
     digest: 68e762b303c02b71350e24cdb6c54c6138d3ee3d47993f6d2f25a1667983d300
     name: coderunner
@@ -112,7 +184,7 @@ entries:
   deploy-web:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-01-15T10:04:07.931665177Z"
+    created: "2026-01-16T02:56:38.437371043Z"
     digest: 945477797a2b4fbb058ea9dc7d0b4a40d77eaafd5193dce21180967545fb38ad
     name: deploy-web
     type: application
@@ -121,7 +193,7 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.1.0-feature-800792.git-6b6f945.1717164
-    created: "2026-01-15T10:04:07.931249713Z"
+    created: "2026-01-16T02:56:38.436996957Z"
     digest: 04df1ab95f30548c6917bbbb2f5ec42acbda7e8dbec75da0ae95ce4be8e943da
     name: deploy-web
     type: application
@@ -130,7 +202,7 @@ entries:
     version: 0.1.0-feature-800792.git-6b6f945.1717164
   - apiVersion: v1
     appVersion: 0.1.0-feature-800792.git-5e529ef.1716843
-    created: "2026-01-15T10:04:07.930846002Z"
+    created: "2026-01-16T02:56:38.436594467Z"
     digest: db23347429c84cf8dac1b2ad8e43a1e80d5d9eb6eff6617ea4e186d398b8efa5
     name: deploy-web
     type: application
@@ -140,7 +212,16 @@ entries:
   doc-audit-client:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717517
-    created: "2026-01-15T10:04:07.931964123Z"
+    created: "2026-01-16T02:56:38.437963336Z"
+    description: A Helm chart for Kubernetes
+    digest: 513aecf8ddfdcf612f36ced7f96625385064eb8726829fc1ff398c5898d370d0
+    name: doc-audit-client
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/doc-audit-client-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-9008ecc.1717517
+    created: "2026-01-16T02:56:38.437650424Z"
     description: A Helm chart for Kubernetes
     digest: ae6028f90bc727a6541c3bb1736bdb23609821a201d1039ff2781cfc801cec04
     name: doc-audit-client
@@ -150,7 +231,19 @@ entries:
   ecron-analysis:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717499
-    created: "2026-01-15T10:04:07.932303855Z"
+    created: "2026-01-16T02:56:38.438719234Z"
+    description: A Helm ecron analysis service chart for kubenetes
+    digest: eb20da916ce9d671a38690571d1e60e2fa7969f53fb9c4c3f27396198086ea7c
+    keywords:
+    - ecron
+    - analysis
+    name: ecron-analysis
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/ecron-analysis-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-9008ecc.1717499
+    created: "2026-01-16T02:56:38.438313378Z"
     description: A Helm ecron analysis service chart for kubenetes
     digest: b1f5dbb095cffd16d1ddfad8041270c7ea9b676f9b9a3635b94a8a800476f3a3
     keywords:
@@ -163,7 +256,19 @@ entries:
   ecron-management:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717499
-    created: "2026-01-15T10:04:07.932717866Z"
+    created: "2026-01-16T02:56:38.439648143Z"
+    description: A Helm ecron management service chart for kubenetes
+    digest: f9be8e14ca62a745d1ed8d005159f0757a4745e102de2a74f578388a403f18c2
+    keywords:
+    - ecron
+    - management
+    name: ecron-management
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/ecron-management-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-9008ecc.1717499
+    created: "2026-01-16T02:56:38.439192335Z"
     description: A Helm ecron management service chart for kubenetes
     digest: 5927e1860553e01eabe7f2812fd369627fbacf63891e5904961c3af7e13ebe7f
     keywords:
@@ -176,7 +281,7 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-01-15T10:04:07.933050305Z"
+    created: "2026-01-16T02:56:38.440541376Z"
     description: A Helm chart for Kubernetes
     digest: 56e043e32d7953d969afc1592ab07186b541fd50a6ee64c0d877292262c2d9e9
     name: example
@@ -187,7 +292,18 @@ entries:
   flow-audit-config:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717504
-    created: "2026-01-15T10:04:07.933504019Z"
+    created: "2026-01-16T02:56:38.441658267Z"
+    description: FLow Audit Config. A Helm chart for Kubernetes
+    digest: 8fd62722ef75eec75411bb543312c1d377ab37940dd26dc4dca89c319d6fd011
+    keywords:
+    - flow-audit-config
+    name: flow-audit-config
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/flow-audit-config-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-9008ecc.1717504
+    created: "2026-01-16T02:56:38.441212767Z"
     description: FLow Audit Config. A Helm chart for Kubernetes
     digest: 8d152c7d6446df96f8650aedd0eabfdd9c83f9f9f497bb6d525ca837306f8d44
     keywords:
@@ -199,7 +315,18 @@ entries:
   flow-audit-core:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717504
-    created: "2026-01-15T10:04:07.934005663Z"
+    created: "2026-01-16T02:56:38.442698153Z"
+    description: Doc Audit Rest. A Helm chart for Kubernetes
+    digest: 2dfd40a9f06ce8f42645b9dbfe184e624428bc6954f2a4b8ed7886dbba415ae3
+    keywords:
+    - flow-audit-core
+    name: flow-audit-core
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/flow-audit-core-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-9008ecc.1717504
+    created: "2026-01-16T02:56:38.442199785Z"
     description: Doc Audit Rest. A Helm chart for Kubernetes
     digest: b415ce532eae1322adc8e218d8f2d3ee807df4ee54c6a93957cde96a7ed09ce1
     keywords:
@@ -211,7 +338,16 @@ entries:
   flow-automation:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717487
-    created: "2026-01-15T10:04:07.936259977Z"
+    created: "2026-01-16T02:56:38.445195694Z"
+    description: A Helm chart for Kubernetes
+    digest: b908277a641b7a36723787c047d4fe4cf2859378fd6631d097d2f193dde28963
+    name: flow-automation
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/flow-automation-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-9008ecc.1717487
+    created: "2026-01-16T02:56:38.443976343Z"
     description: A Helm chart for Kubernetes
     digest: 604e30d2a1757bf1b573562876d9ef6ad40998ce134b3c790a9ee9ced7d086b1
     name: flow-automation
@@ -221,7 +357,7 @@ entries:
   flow-stream-data-pipeline:
   - apiVersion: v1
     appVersion: 0.1.0-1717403
-    created: "2026-01-15T10:04:07.936841489Z"
+    created: "2026-01-16T02:56:38.445651222Z"
     description: helm chart for flow-stream-data-pipeline
     digest: 77fb558c1e88e924cbc432a1449157177000467060ee38096f55f62143ead52c
     name: flow-stream-data-pipeline
@@ -231,7 +367,16 @@ entries:
   flow-web:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717500
-    created: "2026-01-15T10:04:07.937222228Z"
+    created: "2026-01-16T02:56:38.446980456Z"
+    description: A Helm chart for Kubernetes
+    digest: 37ba170381d5318c23920932288321faef512e83ca80d436cf552b1e5eb22731
+    name: flow-web
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/flow-web-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-9008ecc.1717500
+    created: "2026-01-16T02:56:38.445990413Z"
     description: A Helm chart for Kubernetes
     digest: ff2ef287acde011780afa9f427ac0593c62a7461b6df7dcceeb7dc758bb2e19a
     name: flow-web
@@ -240,17 +385,17 @@ entries:
     version: 0.1.0-git+9008ecc
   operator-web:
   - apiVersion: v1
-    appVersion: 0.1.0-release-0.1.0.git-ae17563.1715407
-    created: "2026-01-15T10:04:07.93915248Z"
+    appVersion: 0.1.0-release-0.1.0.git-937fecf.1717076
+    created: "2026-01-16T02:56:38.448919557Z"
     description: A Helm chart for Kubernetes
-    digest: 59c49b6199e23036ac05f1a18949ffe3aa6e55cdaf979b360188bd968cc70a66
+    digest: 6f39b46b3e8cc8612b9561faf590ff6549646a884b7beadc29bb802b5ed3e20c
     name: operator-web
     urls:
     - https://kweaver-ai.github.io/helm-repo/operator-web-0.1.0.tgz
-    version: 0.1.0-release-0.1.0.git-ae17563.1715407
+    version: 0.1.0
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-937fecf.1717076
-    created: "2026-01-15T10:04:07.938810574Z"
+    created: "2026-01-16T02:56:38.448576278Z"
     description: A Helm chart for Kubernetes
     digest: 655a6719b46a22e9d180bc980ecb420342d5515f86c6b89bfdc52233ec9e650f
     name: operator-web
@@ -260,7 +405,7 @@ entries:
   sandbox-runtime:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-01-15T10:04:07.939408257Z"
+    created: "2026-01-16T02:56:38.449160936Z"
     description: A Helm chart for Kubernetes
     digest: f7ba9790fab39a3def1bccc2bfd669a3d69fb17bd9f1460e263a9e4ed1a88c49
     name: sandbox-runtime
@@ -270,7 +415,7 @@ entries:
   studio-web:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-01-15T10:04:07.94114Z"
+    created: "2026-01-16T02:56:38.45082243Z"
     digest: c2c28f78b68fc7db37fca2dba80b4d435cbb0ed1283afb6ba7a0633bbf47819e
     name: studio-web
     type: application
@@ -279,7 +424,7 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.1.0-main.git-9a51bab.1719216
-    created: "2026-01-15T10:04:07.9407266Z"
+    created: "2026-01-16T02:56:38.450413058Z"
     digest: b734510747e0b96164970742dabd8fe698608167d6b79b0bbd15beafa0264d9f
     name: studio-web
     type: application
@@ -288,7 +433,7 @@ entries:
     version: 0.1.0-main.git-9a51bab.1719216
   - apiVersion: v1
     appVersion: 0.1.0-feature-800792.git-6b6f945.1717165
-    created: "2026-01-15T10:04:07.940299736Z"
+    created: "2026-01-16T02:56:38.449997424Z"
     digest: ec4617b6e3592e50d9ef6c7db58bbec99a0c6d260e85bad4f90d50bfef3f1170
     name: studio-web
     type: application
@@ -297,7 +442,7 @@ entries:
     version: 0.1.0-feature-800792.git-6b6f945.1717165
   - apiVersion: v1
     appVersion: 0.1.0-feature-800792.git-5e529ef.1716873
-    created: "2026-01-15T10:04:07.939881988Z"
+    created: "2026-01-16T02:56:38.449575629Z"
     digest: f3a1547f3f292d61a941c7424daf25e11d4d9e9f73f4b914c1e59357886b1087
     name: studio-web
     type: application
@@ -307,7 +452,7 @@ entries:
   testchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-01-15T10:04:07.941566083Z"
+    created: "2026-01-16T02:56:38.451229538Z"
     description: A Helm chart for Kubernetes
     digest: c22e7485a70443402ede3418a0cd9ef21e3085d58eae10f6f91925cd5a7a5bc1
     name: testchart
@@ -318,11 +463,20 @@ entries:
   workflow-manage-client:
   - apiVersion: v1
     appVersion: 0.1.0-9008ecc.1717518
-    created: "2026-01-15T10:04:07.942397861Z"
+    created: "2026-01-16T02:56:38.451824286Z"
+    description: A Helm chart for Kubernetes
+    digest: f724c2f1d4a7cd25c474adf17d08ddbfd85d46a0f9ef2e216a33c25865d6ea82
+    name: workflow-manage-client
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/workflow-manage-client-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: 0.1.0-9008ecc.1717518
+    created: "2026-01-16T02:56:38.451524327Z"
     description: A Helm chart for Kubernetes
     digest: cdb7b58509bc9cac03fd94584e9929083a75866ff03cdda7e8e7f128419cddcb
     name: workflow-manage-client
     urls:
     - https://kweaver-ai.github.io/helm-repo/workflow-manage-client-0.1.0-9008ecc.tgz
     version: 0.1.0-9008ecc
-generated: "2026-01-15T10:04:07.924571293Z"
+generated: "2026-01-16T02:56:38.42412969Z"
