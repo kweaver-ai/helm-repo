@@ -3,7 +3,7 @@ entries:
   agent-app:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716698
-    created: "2026-02-06T09:29:12.506531291Z"
+    created: "2026-02-06T10:02:03.925340983Z"
     description: A Helm service chart for Kubernetes
     digest: 7c1de1f47fded500b9e346fd9d5c35466b65240b0219304363878b44bf37493f
     name: agent-app
@@ -13,7 +13,7 @@ entries:
   agent-backend:
   - apiVersion: v1
     appVersion: 0.2.1-release-0.2.1.git-5b52f69.1732809-opensource
-    created: "2026-02-06T09:29:12.508720813Z"
+    created: "2026-02-06T10:02:03.927497768Z"
     description: A Helm service chart for Kubernetes
     digest: 084460354c05a4779606e3f00fd57d2027d8250ef00c8076935054bfdefb8d12
     name: agent-backend
@@ -23,7 +23,7 @@ entries:
   agent-executor:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716701
-    created: "2026-02-06T09:29:12.509325294Z"
+    created: "2026-02-06T10:02:03.928093936Z"
     description: A Helm chart for Kubernetes
     digest: 773121c26e997e20e4d10e4aa34667fcf9eb9fef4fe05c707879bc46ae14100a
     name: agent-executor
@@ -33,7 +33,7 @@ entries:
   agent-factory:
   - apiVersion: v1
     appVersion: 0.2.0-release-0.2.0.git-4eeacac.1729247-opensource
-    created: "2026-02-06T09:29:12.507640559Z"
+    created: "2026-02-06T10:02:03.926426549Z"
     description: A Helm service chart for Kubernetes
     digest: 46d8fae007e301421065ffde30ff3839a71d7061cc3cf10b13a7d960441d30dc
     name: agent-factory
@@ -42,7 +42,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716703
-    created: "2026-02-06T09:29:12.509944653Z"
+    created: "2026-02-06T10:02:03.9295019Z"
     description: A Helm service chart for Kubernetes
     digest: 28a2dbd862f55dcaca53ea1679b217a76842dabcd57e4be20981d108c7ebad79
     name: agent-factory
@@ -52,7 +52,7 @@ entries:
   agent-memory:
   - apiVersion: v1
     appVersion: 0.1.0-release-decision-agent-0.1.0.git-fb10cc2.1716695
-    created: "2026-02-06T09:29:12.511259031Z"
+    created: "2026-02-06T10:02:03.93011556Z"
     description: A Helm chart for Kubernetes
     digest: cab95ff28bd814f2e8dba2b1145b8163b02375aad11d9b2a0bf28906f0dd18b4
     name: agent-memory
@@ -62,7 +62,7 @@ entries:
   agent-operator-app:
   - apiVersion: v1
     appVersion: 0.2.0.1729205
-    created: "2026-02-06T09:29:12.512192363Z"
+    created: "2026-02-06T10:02:03.931193522Z"
     description: A Helm service chart for Kubernetes
     digest: 0a51664bdaa20c38c4fc115d84a13390644d68ad0aa27d6e46534eb07fa63b2c
     name: agent-operator-app
@@ -71,7 +71,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0.1726968
-    created: "2026-02-06T09:29:12.511751195Z"
+    created: "2026-02-06T10:02:03.930694525Z"
     description: A Helm service chart for Kubernetes
     digest: b2eb0a34436c3e4b15c2744b00e3fa1457aa7183cc5fb22b30473b9314f4e26f
     name: agent-operator-app
@@ -81,7 +81,7 @@ entries:
   agent-operator-integration:
   - apiVersion: v1
     appVersion: 0.2.0.1732521
-    created: "2026-02-06T09:29:12.513533631Z"
+    created: "2026-02-06T10:02:03.932507852Z"
     description: A Helm service chart for Kubernetes
     digest: f8ed6a30604ecffaa0bb7b67905b453232cdbd362eb546f8a66d9a87d79130e9
     name: agent-operator-integration
@@ -90,7 +90,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717542
-    created: "2026-02-06T09:29:12.512847368Z"
+    created: "2026-02-06T10:02:03.931819945Z"
     description: A Helm service chart for Kubernetes
     digest: 480edaa0d9ef37355fe104e362b634eae05a64922e7a9c0f449ce6e06451cf8c
     name: agent-operator-integration
@@ -100,7 +100,7 @@ entries:
   agent-retrieval:
   - apiVersion: v1
     appVersion: 0.2.0.1729208
-    created: "2026-02-06T09:29:12.514775445Z"
+    created: "2026-02-06T10:02:03.933725954Z"
     description: A Helm service chart for Kubernetes
     digest: 2979c3ac846bc21a71d9d948580be57b3dd09694f2ca8c07dbdb2cfc8a05f191
     name: agent-retrieval
@@ -109,7 +109,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-bccf86f.1717916
-    created: "2026-02-06T09:29:12.514156497Z"
+    created: "2026-02-06T10:02:03.933135288Z"
     description: A Helm service chart for Kubernetes
     digest: c425ee3cb81f6521cf5eb2c7f681ec99c34508245349c1ca6513434294be7244
     name: agent-retrieval
@@ -119,7 +119,7 @@ entries:
   agent-web:
   - apiVersion: v1
     appVersion: 0.2.0-release-0.2.0.git-4eeacac.1729248
-    created: "2026-02-06T09:29:12.515441911Z"
+    created: "2026-02-06T10:02:03.934392512Z"
     description: A Helm chart for Kubernetes
     digest: 20b940e97341bd2b5a860bd371e1c3c2d0a6d71c5e07344f56de4b714efc1082
     name: agent-web
@@ -128,7 +128,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-692cb93.1717080
-    created: "2026-02-06T09:29:12.515115195Z"
+    created: "2026-02-06T10:02:03.934076956Z"
     description: A Helm chart for Kubernetes
     digest: 9f5d15576b2a776030a74069f2b84fc97f9f1e98e0b74c06ba68cd14ebfc94ec
     name: agent-web
@@ -138,7 +138,7 @@ entries:
   audit-log:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.517922253Z"
+    created: "2026-02-06T10:02:03.936683337Z"
     description: 审计日志服务
     digest: 5c80f2e55bed6cf3d763608015a020c4e84a85024933c9f771681cc63a8409d1
     keywords:
@@ -150,7 +150,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.516211008Z"
+    created: "2026-02-06T10:02:03.935882509Z"
     description: 审计日志服务
     digest: ac24cf71d8592a14c16c797966a75b3702bbc1b51709bb19c72fa898546fb245
     keywords:
@@ -163,7 +163,7 @@ entries:
   authentication:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.518846037Z"
+    created: "2026-02-06T10:02:03.937635675Z"
     description: A Helm authentication service chart for Kubernetes
     digest: 46de3fe7b77260051982f993d46407472198d2b3eb7c62460fb6c0ba997836e2
     keywords:
@@ -175,7 +175,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.518385712Z"
+    created: "2026-02-06T10:02:03.937217669Z"
     description: A Helm authentication service chart for Kubernetes
     digest: 372b5a8cb9491fc3c6f90e4663526022c6ca2942fcd72bfe8734abab7f6fb9eb
     keywords:
@@ -188,7 +188,7 @@ entries:
   authorization:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.519743842Z"
+    created: "2026-02-06T10:02:03.938473802Z"
     description: A Helm authorization service chart for Kubernetes
     digest: 0409d7bbc4e4b0142813f816b7d0e95661034d87462048a6f019f8bf27384418
     keywords:
@@ -200,7 +200,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.519293507Z"
+    created: "2026-02-06T10:02:03.938075202Z"
     description: A Helm authorization service chart for Kubernetes
     digest: b13857698ce83b9162cc6d1929e49304839e416f0ce801521b82b3099e25fcc5
     keywords:
@@ -213,7 +213,7 @@ entries:
   business-system-frontend:
   - apiVersion: v1
     appVersion: 0.3.0
-    created: "2026-02-06T09:29:12.520590332Z"
+    created: "2026-02-06T10:02:03.939374635Z"
     description: A Helm chart for Kubernetes
     digest: 4ffe15d89b2169ff175857536777e87fdf66c6c9d2cdfec4640ea66cb099caa9
     name: business-system-frontend
@@ -222,7 +222,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.52032472Z"
+    created: "2026-02-06T10:02:03.939023533Z"
     description: A Helm chart for Kubernetes
     digest: 016a2b512b5d379d14e1ff1cc5a2a7c2045c31feb7b5012cb06f6de9a57a668c
     name: business-system-frontend
@@ -231,7 +231,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.520017199Z"
+    created: "2026-02-06T10:02:03.938741409Z"
     description: A Helm chart for Kubernetes
     digest: d149253ac81bade2b0a168ac1db8e903d4c7da1449553d4e12d28e7e4bc9873c
     name: business-system-frontend
@@ -241,7 +241,7 @@ entries:
   business-system-service:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-02-06T09:29:12.521189974Z"
+    created: "2026-02-06T10:02:03.940065868Z"
     description: A Helm chart for Kubernetes
     digest: 5e08bff8685e37795fbcc0a9b8ddc4ce24177b793e72daba4a8aba6dbcec1b29
     name: business-system-service
@@ -250,7 +250,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-02-06T09:29:12.520903373Z"
+    created: "2026-02-06T10:02:03.939753478Z"
     description: A Helm chart for Kubernetes
     digest: b3a9ac771575c2297f99f854f1335e2f128fd230dac1642c7c3d04193a229a21
     name: business-system-service
@@ -260,7 +260,7 @@ entries:
   coderunner:
   - apiVersion: v1
     appVersion: 0.2.0-a073f92.1728774
-    created: "2026-02-06T09:29:12.522178378Z"
+    created: "2026-02-06T10:02:03.941039677Z"
     description: A Helm chart for Kubernetes
     digest: d38fb3657f7d15c261e5661f9849b2621a2de8faf5d60c6ce09edd7b7145244f
     name: coderunner
@@ -269,7 +269,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-f28f8ed.1728903
-    created: "2026-02-06T09:29:12.521705241Z"
+    created: "2026-02-06T10:02:03.940536412Z"
     description: A Helm chart for Kubernetes
     digest: b40641eb97cfe222cc94a2edfe61e964c69a89e66ca356413e1ae0a10cb45026
     name: coderunner
@@ -279,7 +279,7 @@ entries:
   data-connection:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.523342467Z"
+    created: "2026-02-06T10:02:03.942787786Z"
     description: A Helm chart for data-connection
     digest: d3dafabe0660fcc2b6ee8d5a0ee9900d553ece4eec21d20fcac8a21c6c20faaa
     name: data-connection
@@ -288,7 +288,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.522633372Z"
+    created: "2026-02-06T10:02:03.941706094Z"
     description: A Helm chart for data-connection
     digest: 5731193dffa67c96b7308efeb753e1883c06e062164162056c217f081f067459
     name: data-connection
@@ -298,7 +298,7 @@ entries:
   data-retrieval:
   - apiVersion: v1
     appVersion: 0.2.0.1729243
-    created: "2026-02-06T09:29:12.524734091Z"
+    created: "2026-02-06T10:02:03.94372691Z"
     description: A Helm chart for Kubernetes
     digest: 970eedff10503969997fdb2bb019088edc140135f79e168774e7bcf279363066
     name: data-retrieval
@@ -307,7 +307,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0.1728710
-    created: "2026-02-06T09:29:12.524254481Z"
+    created: "2026-02-06T10:02:03.9432801Z"
     description: A Helm chart for Kubernetes
     digest: 63696f5489e8a84f79b362816480e22479e7b061f65a95e2c3b756014f56b623
     name: data-retrieval
@@ -317,7 +317,7 @@ entries:
   deploy-web:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.525524888Z"
+    created: "2026-02-06T10:02:03.944522688Z"
     digest: b3122c28fb210ebf5d878ad34f72fa941c66218ccb2258564d72c321d86b95d0
     name: deploy-web
     type: application
@@ -326,7 +326,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.525134634Z"
+    created: "2026-02-06T10:02:03.944142732Z"
     digest: 945477797a2b4fbb058ea9dc7d0b4a40d77eaafd5193dce21180967545fb38ad
     name: deploy-web
     type: application
@@ -336,7 +336,7 @@ entries:
   doc-audit-client:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.525832689Z"
+    created: "2026-02-06T10:02:03.944798821Z"
     description: A Helm chart for Kubernetes
     digest: 8234a89649302649a97c3dc418b6907b56467bfd70ace970a9aaaf55590841dd
     name: doc-audit-client
@@ -346,7 +346,7 @@ entries:
   eacp:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.526800695Z"
+    created: "2026-02-06T10:02:03.945739899Z"
     description: A Helm eacp service chart for Kubernetes
     digest: 36c460278e566da16e0496d3c0112d87c57b136eb2c6e1cc685dba68b18965d0
     keywords:
@@ -358,7 +358,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.52632901Z"
+    created: "2026-02-06T10:02:03.945291676Z"
     description: A Helm eacp service chart for Kubernetes
     digest: 4fd232451f9823f91a1c8675d1783213a70ec5cfc5751dba3d94d81f310ee0ec
     keywords:
@@ -371,7 +371,7 @@ entries:
   eacp-single:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.52772524Z"
+    created: "2026-02-06T10:02:03.946673573Z"
     description: A Helm eacp-single service chart for Kubernetes
     digest: c799ab7837e55ab5aeda1ec044e3b7f4995ad5b7a44cd27c75d1abdb81da0ee2
     keywords:
@@ -383,7 +383,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.527256881Z"
+    created: "2026-02-06T10:02:03.946224078Z"
     description: A Helm eacp-single service chart for Kubernetes
     digest: 9db091843725744147e609bcd46314aea8a053bb228cb39387c2425c32375280
     keywords:
@@ -396,7 +396,7 @@ entries:
   ecron-analysis:
   - apiVersion: v1
     appVersion: 0.2.0-a073f92.1728776
-    created: "2026-02-06T09:29:12.528378111Z"
+    created: "2026-02-06T10:02:03.94733439Z"
     description: A Helm ecron analysis service chart for kubenetes
     digest: 96e9be550b1797f9b90ac0cfea2983ad384c0c741e299a58ceb0c85cf139ccc7
     keywords:
@@ -408,7 +408,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.528052086Z"
+    created: "2026-02-06T10:02:03.9470116Z"
     description: A Helm ecron analysis service chart for kubenetes
     digest: a9240bcfc44c6bbd36c295677dcd381920494a405094914b9b8d15b713573e2c
     keywords:
@@ -421,7 +421,7 @@ entries:
   ecron-management:
   - apiVersion: v1
     appVersion: 0.2.0-a073f92.1728776
-    created: "2026-02-06T09:29:12.529150344Z"
+    created: "2026-02-06T10:02:03.948800941Z"
     description: A Helm ecron management service chart for kubenetes
     digest: 160916b91b03a5f7b339c1d4016cf012c01d31634f02ef22fb1e98f9403c95df
     keywords:
@@ -433,7 +433,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.528778223Z"
+    created: "2026-02-06T10:02:03.947710178Z"
     description: A Helm ecron management service chart for kubenetes
     digest: 187a706b789066c6ea70eebe52578e3e54c1f83f7430b62c4fd6e860a92c1647
     keywords:
@@ -446,7 +446,7 @@ entries:
   flow-audit-config:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.530348787Z"
+    created: "2026-02-06T10:02:03.949417335Z"
     description: FLow Audit Config. A Helm chart for Kubernetes
     digest: 698eb6af922ad1e195ede961f004ca6aa7b13c56007c282f47d8e48187b32cb6
     keywords:
@@ -458,7 +458,7 @@ entries:
   flow-audit-core:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.53092707Z"
+    created: "2026-02-06T10:02:03.949945446Z"
     description: Doc Audit Rest. A Helm chart for Kubernetes
     digest: a159024385cca7be4d4a869a7cb4f26ee29c3dc8c50f13b214bd11a41a26c76f
     keywords:
@@ -470,7 +470,7 @@ entries:
   flow-automation:
   - apiVersion: v1
     appVersion: 0.2.0-a073f92.1728778
-    created: "2026-02-06T09:29:12.533425605Z"
+    created: "2026-02-06T10:02:03.952403752Z"
     description: A Helm chart for Kubernetes
     digest: 57126aedb900283d843ae756653cd9a434a8d031ba31273e049a4d15ef137c1f
     name: flow-automation
@@ -479,7 +479,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.532207876Z"
+    created: "2026-02-06T10:02:03.951195297Z"
     description: A Helm chart for Kubernetes
     digest: 2b53871330291307384a29dd52bb5759b892fd2b194f4f53fd41cabf283c4895
     name: flow-automation
@@ -489,7 +489,7 @@ entries:
   flow-stream-data-pipeline:
   - apiVersion: v1
     appVersion: 0.2.0-1728779
-    created: "2026-02-06T09:29:12.534320625Z"
+    created: "2026-02-06T10:02:03.953306348Z"
     description: helm chart for flow-stream-data-pipeline
     digest: aacbc5be4d600c243c50d50a1e5c846dbb80f787870832e05539e850798d3f01
     name: flow-stream-data-pipeline
@@ -498,7 +498,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.5338867Z"
+    created: "2026-02-06T10:02:03.952848538Z"
     description: helm chart for flow-stream-data-pipeline
     digest: a448fada6c9a4edd45cdbc6656c61cb5434f5e2500869420e38b243c969f8d93
     name: flow-stream-data-pipeline
@@ -508,7 +508,7 @@ entries:
   flow-web:
   - apiVersion: v1
     appVersion: 0.2.0-0f135e5.1729045
-    created: "2026-02-06T09:29:12.534965471Z"
+    created: "2026-02-06T10:02:03.953947959Z"
     description: A Helm chart for Kubernetes
     digest: 3892154b422d4badf79c1181ee10968d078a590b305537423e8086fd1520fc02
     name: flow-web
@@ -517,7 +517,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.534653933Z"
+    created: "2026-02-06T10:02:03.953624378Z"
     description: A Helm chart for Kubernetes
     digest: 12cfe16ae1f55d39be9a462c0140186d6c79cce55d5e3477a390aa6aed591f36
     name: flow-web
@@ -527,7 +527,7 @@ entries:
   hydra:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.538342825Z"
+    created: "2026-02-06T10:02:03.957282885Z"
     description: A Helm chart for deploying ORY Hydra in Kubernetes
     digest: 02f9566fc431e852250f9f21c52dbea689f74984b7b5e4b9ed8437cbe22578ed
     home: https://www.ory.sh/
@@ -551,7 +551,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.536546955Z"
+    created: "2026-02-06T10:02:03.955649489Z"
     description: A Helm chart for deploying ORY Hydra in Kubernetes
     digest: cc26760cb9f59ae9b4e9cd61f0ddae52d5b8a07b73cb32b3a731be68dc473951
     home: https://www.ory.sh/
@@ -576,7 +576,7 @@ entries:
   informationsecurityfabric-dm-pre:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.53877166Z"
+    created: "2026-02-06T10:02:03.957696744Z"
     description: A Helm chart for Kubernetes
     digest: 3a67d71c44a004924373faceba007a71164d32995d67f8ba4e86041ea29e0163
     name: informationsecurityfabric-dm-pre
@@ -586,7 +586,7 @@ entries:
   ingress-informationsecurityfabric:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-02-06T09:29:12.539287958Z"
+    created: "2026-02-06T10:02:03.958226578Z"
     description: A Helm chart for Kubernetes
     digest: 382fee438901df2d51af94027a94db8c296f57974014e24b026da3da796e21d1
     name: ingress-informationsecurityfabric
@@ -595,7 +595,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-02-06T09:29:12.539040148Z"
+    created: "2026-02-06T10:02:03.95797489Z"
     description: A Helm chart for Kubernetes
     digest: 33b906860594bebdbc527a70cc9f3261cf738eebbcc3c9df067912de3919e2ec
     name: ingress-informationsecurityfabric
@@ -605,7 +605,7 @@ entries:
   isfweb:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.539891237Z"
+    created: "2026-02-06T10:02:03.958807476Z"
     description: A Helm chart for isfweb frontend
     digest: 2df65284e33d916c6c91338cf94bf933870e20f6b169e766feb2c2e1a6b0054b
     keywords:
@@ -617,7 +617,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.539592403Z"
+    created: "2026-02-06T10:02:03.958530241Z"
     description: A Helm chart for isfweb frontend
     digest: 83854ab735ce5a87bfa97a1e62f8be190751e3979e756522adc99e3893d027d4
     keywords:
@@ -630,7 +630,7 @@ entries:
   isfwebthrift:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.540760319Z"
+    created: "2026-02-06T10:02:03.959612902Z"
     description: A Helm chart for isfwebthrift frontend
     digest: a61c241bb012bd030a194001d93fe4b8f5c9bff25176ee0f544d2e2b311a6f69
     keywords:
@@ -642,7 +642,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.540349447Z"
+    created: "2026-02-06T10:02:03.959228478Z"
     description: A Helm chart for isfwebthrift frontend
     digest: 02eeac59e3e2de7a5dde27ffdacbdfb6564b0c936744990529cea5ff78d3e897
     keywords:
@@ -655,7 +655,7 @@ entries:
   mdl-data-model:
   - apiVersion: v1
     appVersion: 0.2.0-20260122.3.568c1d9c
-    created: "2026-02-06T09:29:12.54169321Z"
+    created: "2026-02-06T10:02:03.960550012Z"
     description: helm chart for mdl-data-model
     digest: 218e222721384414dc2da59dd01a8e6808d64b961b9d0ee9e8cc124896f0ab1b
     name: mdl-data-model
@@ -664,7 +664,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-20260114.1.95e40a6
-    created: "2026-02-06T09:29:12.541220773Z"
+    created: "2026-02-06T10:02:03.960095929Z"
     description: helm chart for mdl-data-model
     digest: c8adb316031267d6f6dab7b8c1af7f73276be9dd84751f74d1b320d04be806af
     name: mdl-data-model
@@ -674,7 +674,7 @@ entries:
   mdl-data-model-job:
   - apiVersion: v1
     appVersion: 0.2.0-20260122.2.bd5d48f
-    created: "2026-02-06T09:29:12.542476823Z"
+    created: "2026-02-06T10:02:03.961347624Z"
     description: helm chart for mdl-data-model-job
     digest: bbff490e02d4297d7766e26de4dadba5456e69a86ac437a0af1f9f2562bfa739
     name: mdl-data-model-job
@@ -683,7 +683,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-20260114.1.95e40a6
-    created: "2026-02-06T09:29:12.542090466Z"
+    created: "2026-02-06T10:02:03.960959192Z"
     description: helm chart for mdl-data-model-job
     digest: 6d023084b76ec7de090c250ddda32d3cd0650881dad897709e5ad3d0b1dafc8b
     name: mdl-data-model-job
@@ -693,7 +693,7 @@ entries:
   mdl-uniquery:
   - apiVersion: v1
     appVersion: 0.2.0-20260122.2.bd5d48f
-    created: "2026-02-06T09:29:12.543912236Z"
+    created: "2026-02-06T10:02:03.962535379Z"
     description: helm chart for mdl-uniquery
     digest: 42fe9b0d4a09956053b013560871e8cb0264e273b6ff1142c4fba07b656b304d
     name: mdl-uniquery
@@ -702,7 +702,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-20260114.1.95e40a6
-    created: "2026-02-06T09:29:12.543086795Z"
+    created: "2026-02-06T10:02:03.961951465Z"
     description: helm chart for mdl-uniquery
     digest: 9e31be40182a8ca438a6ea44771326d16d2e9a9b27239eec6269c2e4cfae3088
     name: mdl-uniquery
@@ -712,7 +712,7 @@ entries:
   message:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.545234551Z"
+    created: "2026-02-06T10:02:03.964072725Z"
     description: A Helm message service chart for Kubernetes
     digest: bbaa44a0da15e53bd6f11ab5c353a40c202b8843908440206317279270c0122d
     keywords:
@@ -724,7 +724,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.544838106Z"
+    created: "2026-02-06T10:02:03.96342409Z"
     description: A Helm message service chart for Kubernetes
     digest: 508ddb2b79e7d70aca64870a451ccd8ed6889db7256d98b08b4f0a1152f54664
     keywords:
@@ -737,7 +737,7 @@ entries:
   mf-model-api:
   - apiVersion: v1
     appVersion: 0.3.0
-    created: "2026-02-06T09:29:12.54664069Z"
+    created: "2026-02-06T10:02:03.965402264Z"
     description: A Helm chart for Kubernetes
     digest: 7f1e9a17c200f8e376f0501d7b88183f73d23b4862b0e85b98a71131c55fb2fc
     name: mf-model-api
@@ -746,7 +746,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.546184924Z"
+    created: "2026-02-06T10:02:03.964970752Z"
     description: A Helm chart for Kubernetes
     digest: 3f377bac0a524c990a4db76afcb4657d52adefdecb82f2f611f4e1716a4af8ba
     name: mf-model-api
@@ -755,7 +755,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.54574084Z"
+    created: "2026-02-06T10:02:03.964523311Z"
     description: A Helm chart for Kubernetes
     digest: 32664f1b4b70bf30fbbbf5f991498a14809c4cf0596c918468edc71224594a46
     name: mf-model-api
@@ -765,7 +765,7 @@ entries:
   mf-model-manager:
   - apiVersion: v1
     appVersion: 0.3.0
-    created: "2026-02-06T09:29:12.547958174Z"
+    created: "2026-02-06T10:02:03.966688853Z"
     description: A Helm chart for Kubernetes
     digest: 57f85b481c905c135cc7f0bbedf0ff741d56e02f7cc21a85f432cdf071cbf846
     name: mf-model-manager
@@ -774,7 +774,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.547510122Z"
+    created: "2026-02-06T10:02:03.966271308Z"
     description: A Helm chart for Kubernetes
     digest: 8e91fa57f260afa514d01563caed7d76d1be019627a197fe14ebfc66d74a1c22
     name: mf-model-manager
@@ -783,7 +783,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.547087729Z"
+    created: "2026-02-06T10:02:03.965827323Z"
     description: A Helm chart for Kubernetes
     digest: 69cc19698e850e0908d7e700f99c4ba34df3ee76c7342ca5c339ac958f897f0c
     name: mf-model-manager
@@ -793,7 +793,7 @@ entries:
   mf-model-manager-nginx:
   - apiVersion: v1
     appVersion: 0.3.0
-    created: "2026-02-06T09:29:12.548846722Z"
+    created: "2026-02-06T10:02:03.967579718Z"
     description: A Helm chart for Kubernetes
     digest: 1cd7626a421ea70ea49b6a08d50096ee300d790151aa07dcf4671c42f2da9b1d
     name: mf-model-manager-nginx
@@ -802,7 +802,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.548539532Z"
+    created: "2026-02-06T10:02:03.967293756Z"
     description: A Helm chart for Kubernetes
     digest: 11f93f6e096d1e7371475086615668d8817600f8f2d81a91f9425a7f13064a25
     name: mf-model-manager-nginx
@@ -811,7 +811,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.54825266Z"
+    created: "2026-02-06T10:02:03.967004399Z"
     description: A Helm chart for Kubernetes
     digest: 9510a64000061db6d84b4cca965773ae189494f93c1695868d284650e5fee568
     name: mf-model-manager-nginx
@@ -821,7 +821,7 @@ entries:
   news-feed:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.549566217Z"
+    created: "2026-02-06T10:02:03.968320223Z"
     description: A Helm news-feed service chart for Kubernetes
     digest: 7ae1dbc50a31bdc1e55c2c04ea0aeeaf3c60615c83b9c2477e635ac9ef6a5292
     keywords:
@@ -833,7 +833,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.549216007Z"
+    created: "2026-02-06T10:02:03.967964612Z"
     description: A Helm news-feed service chart for Kubernetes
     digest: 3cb9854c9f81f3978f3a0538d7dfcb25592913093e00fd6a44231d0274e5639b
     keywords:
@@ -846,7 +846,7 @@ entries:
   oauth2-ui:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.550978206Z"
+    created: "2026-02-06T10:02:03.969063313Z"
     description: A Helm chart oauth2-ui for Kubernetes
     digest: bd52adf8103ddd8ec158ea1df64693487280c4d0151a5e05dfff2d760e176219
     keywords:
@@ -860,7 +860,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.549960799Z"
+    created: "2026-02-06T10:02:03.968689909Z"
     description: A Helm chart oauth2-ui for Kubernetes
     digest: 5a9b784d82f7cffa9d76c56790ca3fbcb54339cf309b223c01f229fdfebf1953
     keywords:
@@ -875,7 +875,7 @@ entries:
   ontology-manager:
   - apiVersion: v1
     appVersion: 0.2.0-20260122.7.b02224f
-    created: "2026-02-06T09:29:12.552203975Z"
+    created: "2026-02-06T10:02:03.970843082Z"
     description: helm chart for ontology-manager
     digest: b2c703bb625ef734af87a8cb9788f3c1d1e6eeefdcd5e2b428c722928206d85b
     name: ontology-manager
@@ -884,7 +884,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-20260114.2.95e40a6
-    created: "2026-02-06T09:29:12.551728603Z"
+    created: "2026-02-06T10:02:03.970181003Z"
     description: helm chart for ontology-manager
     digest: 82204193f1042340c1ac08652a9d1bbb6921f9d998730d70c398ad848f42608d
     name: ontology-manager
@@ -894,7 +894,7 @@ entries:
   ontology-query:
   - apiVersion: v1
     appVersion: 0.2.0-20260122.4.b02224f
-    created: "2026-02-06T09:29:12.553028334Z"
+    created: "2026-02-06T10:02:03.971682381Z"
     description: helm chart for ontology-query
     digest: 051c1836af35c6a8ebfc1d3986bad6a1229574a7b3a88d713bd35ffd660bd7dd
     name: ontology-query
@@ -903,7 +903,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-20260114.1.95e40a6
-    created: "2026-02-06T09:29:12.552602264Z"
+    created: "2026-02-06T10:02:03.971282018Z"
     description: helm chart for ontology-query
     digest: 68de7176453bb6499f9f90c8d984fb1a0b97651a9a7374486d9da8b25e73e24e
     name: ontology-query
@@ -912,8 +912,17 @@ entries:
     version: 0.1.0
   operator-web:
   - apiVersion: v1
+    appVersion: 0.3.0-release-0.3.0.git-6711fdc.1743680
+    created: "2026-02-06T10:02:03.972674323Z"
+    description: A Helm chart for Kubernetes
+    digest: 6032237f9c262fd463453d247e9af2cd25155390ee259db092a94d16e84a7952
+    name: operator-web
+    urls:
+    - https://kweaver-ai.github.io/helm-repo/operator-web-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
     appVersion: 0.2.0-release-0.2.0.git-bd5d48f.1729188
-    created: "2026-02-06T09:29:12.553692757Z"
+    created: "2026-02-06T10:02:03.972364949Z"
     description: A Helm chart for Kubernetes
     digest: 5d4084f8eb6b78723e6d7fb71129174b9b280a267249f32a4db3581fba0245f8
     name: operator-web
@@ -922,7 +931,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-release-0.1.0.git-937fecf.1717076
-    created: "2026-02-06T09:29:12.55334957Z"
+    created: "2026-02-06T10:02:03.972034885Z"
     description: A Helm chart for Kubernetes
     digest: 6f39b46b3e8cc8612b9561faf590ff6549646a884b7beadc29bb802b5ed3e20c
     name: operator-web
@@ -932,7 +941,7 @@ entries:
   policy-management:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.554627401Z"
+    created: "2026-02-06T10:02:03.973605973Z"
     description: 策略管理服务
     digest: 783b9e76ff39af02155c7d4076e24c002125d28f30c2cb8e537d840de5117d78
     keywords:
@@ -946,7 +955,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.55416341Z"
+    created: "2026-02-06T10:02:03.973158412Z"
     description: 策略管理服务
     digest: 0502257254c3bc1e9f95902f38ae66e479912b09469f80c68b3f4d9a0d547fa2
     keywords:
@@ -961,7 +970,7 @@ entries:
   sandbox:
   - apiVersion: v2
     appVersion: 0.2.0-git-e258ecb.1742521
-    created: "2026-02-06T09:29:12.555513404Z"
+    created: "2026-02-06T10:02:03.974499212Z"
     description: A Helm chart for Sandbox Platform - Secure code execution in isolated
       container environments
     digest: ab6698325a96763d30d2c057223161f9d447a9d8eeec2e07fe3dff3a49a1474b
@@ -981,7 +990,7 @@ entries:
   sandbox-runtime:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.555776833Z"
+    created: "2026-02-06T10:02:03.974738566Z"
     description: A Helm chart for Kubernetes
     digest: f7ba9790fab39a3def1bccc2bfd669a3d69fb17bd9f1460e263a9e4ed1a88c49
     name: sandbox-runtime
@@ -991,7 +1000,7 @@ entries:
   sharemgnt:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2026-02-06T09:29:12.556551079Z"
+    created: "2026-02-06T10:02:03.975527452Z"
     description: A Helm sharemgnt service chart for Kubernetes
     digest: 46bb9e9cc8182b39689b8237a2246088647af2f9d513166d23f083a92cc0419e
     keywords:
@@ -1003,7 +1012,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2026-02-06T09:29:12.556171745Z"
+    created: "2026-02-06T10:02:03.975149229Z"
     description: A Helm sharemgnt service chart for Kubernetes
     digest: 91a9675fdbbb45fb21642640d6d3047504a7192695eba4469aa09289734dde4b
     keywords:
@@ -1016,7 +1025,7 @@ entries:
   sharemgnt-single:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2026-02-06T09:29:12.5580646Z"
+    created: "2026-02-06T10:02:03.977074445Z"
     description: A Helm sharemgnt-single service chart for Kubernetes
     digest: bc5a9f1ff36e49a79212dec9df4b346443416595610b6e25d1b98f4726ee5bba
     keywords:
@@ -1028,7 +1037,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2026-02-06T09:29:12.557282777Z"
+    created: "2026-02-06T10:02:03.976336855Z"
     description: A Helm sharemgnt-single service chart for Kubernetes
     digest: d8a21ddfb50b37a7e0025f16a6a281b3e063901d29b60429db59b1cd20f6adfe
     keywords:
@@ -1041,7 +1050,7 @@ entries:
   studio-web:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.558935676Z"
+    created: "2026-02-06T10:02:03.977898815Z"
     digest: aa8af5b394e626d33aebf23a4dee960e67ef03b53b2facf3a9ffb29b2d52bad1
     name: studio-web
     type: application
@@ -1050,7 +1059,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.55848539Z"
+    created: "2026-02-06T10:02:03.97749213Z"
     digest: c2c28f78b68fc7db37fca2dba80b4d435cbb0ed1283afb6ba7a0633bbf47819e
     name: studio-web
     type: application
@@ -1060,7 +1069,7 @@ entries:
   thirdparty-message-plugin:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.55963877Z"
+    created: "2026-02-06T10:02:03.978619224Z"
     description: 第三方消息插件
     digest: e32c3086601faa0c71d596b5e437c14104cc464a8d18ea456ab36e19dca4871a
     name: thirdparty-message-plugin
@@ -1069,7 +1078,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.55929888Z"
+    created: "2026-02-06T10:02:03.97829414Z"
     description: 文档策略服务
     digest: 73445f7c3efcee9bdf450250ffb73da6c75e1433ffec974d5c310612bde3a515
     keywords:
@@ -1084,7 +1093,7 @@ entries:
   user-management:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2026-02-06T09:29:12.560368444Z"
+    created: "2026-02-06T10:02:03.979334893Z"
     description: A Helm user-management service chart for Kubernetes
     digest: 289d8d389d42434f9c887d66964153b1614e84fabb4da31770f65f52a3bfc6d5
     keywords:
@@ -1096,7 +1105,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.5599948Z"
+    created: "2026-02-06T10:02:03.978993679Z"
     description: A Helm user-management service chart for Kubernetes
     digest: 0b40f12854db3e2a46c826a820cd8d8fa306f7a73914261ff0738cf4270c36a4
     keywords:
@@ -1109,7 +1118,7 @@ entries:
   vega-calculate:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-02-06T09:29:12.560954671Z"
+    created: "2026-02-06T10:02:03.979893971Z"
     description: A Helm chart for HDFS
     digest: 36fee40b27ee545a38ee889341554324148b44e03808201e82deccd9242abe2f
     name: vega-calculate
@@ -1119,7 +1128,7 @@ entries:
   vega-gateway:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.561760967Z"
+    created: "2026-02-06T10:02:03.980696912Z"
     description: A Helm chart for vega-gateway
     digest: 8d6ffb7990faf45db06a411e57d401d426b41a1560e58789ce00e924229eed47
     name: vega-gateway
@@ -1128,7 +1137,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.561375031Z"
+    created: "2026-02-06T10:02:03.980331824Z"
     description: A Helm chart for vega-gateway
     digest: 158b021230802821e6426107a7077702aa8735a0e2789ad6859088e00fc0990d
     name: vega-gateway
@@ -1138,7 +1147,7 @@ entries:
   vega-gateway-pro:
   - apiVersion: v1
     appVersion: 0.2.0-20260122.2.bd5d48f
-    created: "2026-02-06T09:29:12.562626833Z"
+    created: "2026-02-06T10:02:03.981605239Z"
     description: helm chart for vega-gateway-pro
     digest: 15472658092775cb3f5c6ec98e337539954d932beb934469fa4bcc3d4f5b2ff0
     name: vega-gateway-pro
@@ -1147,7 +1156,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-20260114.2.95e40a6
-    created: "2026-02-06T09:29:12.562234726Z"
+    created: "2026-02-06T10:02:03.981225323Z"
     description: helm chart for vega-gateway-pro
     digest: b9627d57a8fe5494477532ba3e687132dee805be0d57bed9f137d01e99474589
     name: vega-gateway-pro
@@ -1157,7 +1166,7 @@ entries:
   vega-hdfs:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.563170141Z"
+    created: "2026-02-06T10:02:03.982295811Z"
     description: A Helm chart for vega-hdfs
     digest: 11af7650de0e2ed4b772b19ecae627fab7faf7dd467465e898475df717712b3e
     name: vega-hdfs
@@ -1167,7 +1176,7 @@ entries:
   vega-metadata:
   - apiVersion: v1
     appVersion: Develop
-    created: "2026-02-06T09:29:12.564448374Z"
+    created: "2026-02-06T10:02:03.983434539Z"
     description: 元数据管理后端
     digest: 36d6418dd37f06fdf6de8e7926808e5e845b541bdd5bb52d47b272358612c261
     name: vega-metadata
@@ -1178,7 +1187,7 @@ entries:
   vega-web:
   - apiVersion: v1
     appVersion: 0.2.0-20260122.6.bd5d48f
-    created: "2026-02-06T09:29:12.565077832Z"
+    created: "2026-02-06T10:02:03.984030986Z"
     description: helm chart for vega-web
     digest: 840630669223e15f86820feba7cf05f064d24b683178cd2d2101661a6b83caf0
     name: vega-web
@@ -1187,7 +1196,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.0-20260114.1.95e40a6
-    created: "2026-02-06T09:29:12.564804364Z"
+    created: "2026-02-06T10:02:03.983735087Z"
     description: helm chart for vega-web
     digest: 930193c61dca0f7c83247e2b899028fe5975ed3f31e8634a0783b434a19399cb
     name: vega-web
@@ -1197,7 +1206,7 @@ entries:
   workflow-manage-client:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.565360156Z"
+    created: "2026-02-06T10:02:03.984316497Z"
     description: A Helm chart for Kubernetes
     digest: 22274b059445485a1857170af8439bb35bdb9984122e0cba8f26852805d3454a
     name: workflow-manage-client
@@ -1207,11 +1216,11 @@ entries:
   workflow-manage-front:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2026-02-06T09:29:12.565652749Z"
+    created: "2026-02-06T10:02:03.984592198Z"
     description: A Helm chart for Kubernetes
     digest: 855425accf0d0ec366f196f153aaaf0c7813ee18bf5bda82b3312ed154d758be
     name: workflow-manage-front
     urls:
     - https://kweaver-ai.github.io/helm-repo/workflow-manage-front-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-06T09:29:12.505691603Z"
+generated: "2026-02-06T10:02:03.924505592Z"
