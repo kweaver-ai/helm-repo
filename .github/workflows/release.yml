@@ -49,7 +49,8 @@ jobs:
         run: |
           shopt -s nullglob || true
           mkdir -p packages
-          cp packages/*.tgz dist/ 2>/dev/null || true
+          cp packages/*.tgz packages/*.tar.gz dist/ 2>/dev/null || true
+          
 
       - name: Seed example chart if empty
         run: |
